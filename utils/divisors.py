@@ -10,3 +10,6 @@ def divisors(number):
             divisors.add(divisor)
 
     return divisors
+
+def is_prime(number):
+    return len(divisors(number)) == 1
